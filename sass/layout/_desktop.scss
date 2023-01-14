@@ -1,0 +1,21 @@
+main {
+  width: 340px;
+  margin: 20vh auto;
+}
+.card {
+  width: 100%;
+  padding: 15px;
+  background-color: var(--card-background);
+  border-radius: 20px;
+  text-align: center;
+  .qr-code-img {overflow: hidden;
+    img { width: 100%;
+      display: block;
+      border-radius: 15px;
+    }
+  }
+
+}
+.attribution {
+  height: 15px;
+}
